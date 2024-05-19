@@ -1,10 +1,22 @@
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
-@import "~bootstrap/scss/bootstrap";
-
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import '~bootstrap/scss/bootstrap';
 
 body {
   background-color: antiquewhite;
   color: brown;
   text-align: center;
   margin-top: 100px;
+}
+
+#intro-text {
+  border: 1px solid red;
+  margin-bottom: 7vh;
+}
+
+#joke-wrapper {
+  border: 1px solid red;
+  width: 666px;
+  height: 666px;
+  margin: 2vh auto 0;
+  text-align: center;
 }
